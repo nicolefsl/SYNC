@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="inico&barra.css">
+    <link rel="stylesheet" href="especialistas.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <div id="sidebar_content">
+            <div id="user">
+                <img src="avatar.jpg" id="user_avatar" alt="Avatar">
+    
+                <p id="user_infos">
+                    <span class="item-description">
+                        SYNC
+                    </span>
+                </p>
+            </div>
+    
+            <ul id="side_items">
+                <li class="side-item active" id="dashboard-item">
+                    <a href="inicio&barra.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="item-description">
+                            Página Inicial
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item" id="usuarios-item">
+                    <a href="calendario.html">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span class="item-description">
+                            Calendário
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item" id="foco-item">
+                    <a href="foco.html">
+                        <i class="fa-solid fa-crosshairs"></i>
+                        <span class="item-description">
+                            Foco
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item" id="especialistas-item">
+                    <a href="especialistas.html">
+                        <i class="fa-solid fa-users"></i>
+                        <span class="item-description">
+                            Especialistas
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item" id="suporte-item">
+                    <a href="suporte.html">
+                        <i class="fa-solid fa-comment"></i>
+                        <span class="item-description">
+                            Suporte
+                        </span>
+                    </a>
+                </li>
+            </ul>
+    
+            <button id="open_btn">
+                <i id="open_btn_icon" class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div id="logout">
+            <button id="logout_btn">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span class="item-description">
+                    Logout
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <header>
+            <nav id="navbar">
+    
+                <ul id="nav_list">
+                    <li class="nav-item active">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu">Especialistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials">Benefícios</a>
+                    </li>
+                </ul>
+    
+                <button id="mobile_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+    
+            
+        </header>
+    
+        <main id="content">
+            <section id="home">
+                <div class="shape"></div>
+                <div id="cta">
+                    <h1 class="title">
+                        Fale com um de nossos
+                        <span>profissionais!</span>
+                    </h1>
+    
+                    <p class="description">
+                        Eles estão prontos para ajudar você a alcançar
+                        seus objetivos e auxiliar nos focos que você
+                        determinou para sua vida!
+                    </p>
+    
+                    <div id="cta_buttons">
+                        <a href="#menu" class="btn-default">
+                            Ver especialistas
+                        </a>
+                    </div>
+    
+                </div>
+    
+                <div id="banner">
+                    <img src="imag.svg" alt="">
+                </div>
+            </section>
+        <section id="menu">
+            <h2 class="section-title">Especialistas</h2>
+            <h3 class="section-subtitle">Nossos profissionais à sua disposição</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+
+                    <img src="nutri.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Nutricionista
+                    </h3>
+
+                    <span class="dish-description">
+                        Conte com a experiência da nutricionista Priscila para alcançar seus objetivos de saúde, com um plano nutricional feito especialmente para você!
+                    </span>
+
+                    <div class="dish-price">
+                        <button class="btn-default">
+                            <a href="https://wa.me/556191672122?text=Quero marcar uma consulta com a nutricionista Priscila!">
+                                <i class="fa-brands fa-whatsapp"> Agendar Consulta</i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+
+                    <img src="treinador.png" class="dish-images" alt="">
+
+                    <h3 class="dish-titles">
+                        Educador Físico
+                    </h3>
+
+                    <span class="dish-description">
+                        Transforme seu corpo e sua saúde com o Treinador Marcos, que oferece treinos personalizados para resultados duradouros e eficazes!
+                    </span>
+
+                    <div class="dish-price">
+                        <button class="btn-default">
+                            <a href="https://wa.me/556184848328?text=Quero marcar uma consulta com o treinador Marcos!">
+                                <i class="fa-brands fa-whatsapp"> Agendar Consulta</i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <img src="psicologa.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Psicóloga
+                    </h3>
+
+                    <span class="dish-description">
+                        Encontre apoio emocional com a psicóloga Ayla, que oferece atendimento personalizado para ajudar você a superar desafios e crescer!
+                    </span>
+
+                    <div class="dish-price">
+                        <button class="btn-default">
+                            <a href="https://wa.me/556192620162?text=Quero marcar uma consulta com a psicóloga Ayla!">
+                                <i class="fa-brands fa-whatsapp"> Agendar Consulta</i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-syringe"></i>
+                    </div>
+
+                    <img src="dermato.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Dermatologista
+                    </h3>
+
+                    <span class="dish-description">
+                        Eleve sua autoestima com a dermatologista Lavínia, que oferece cuidados para realçar sua beleza natural e cuidar da saúde da sua pele!
+                    </span>
+
+                    <div class="dish-price">
+                        <button class="btn-default">
+                            <a href="https://wa.me/556186550530?text=Quero marcar uma consulta com a dermatologista Lavínia!">
+                                <i class="fa-brands fa-whatsapp"> Agendar Consulta</i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="final.svg" id="testimonial_chef" alt="">
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Benefícios
+                </h2>
+                <h3 class="section-subtitle">
+                    Por que procurar um especialista?
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <i class="fa-solid fa-check"></i>
+
+                        <div class="feedback-content">
+                            <p>
+                                Com o apoio de especialistas, alcançar seus focos e objetivos se torna mais fácil e eficiente. Eles oferecem orientação profissional, personalizada para suas necessidades, ajudando você a traçar o melhor caminho para atingir suas metas com confiança e segurança.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <i class="fa-solid fa-check"></i>
+
+                        <div class="feedback-content">
+                            <p>
+                                Conte com o suporte contínuo de profissionais qualificados para acompanhar seu progresso e garantir que você alcance seus objetivos de saúde.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <i class="fa-solid fa-check"></i>
+
+                        <div class="feedback-content">
+                            <p>
+                                Agende consultas no conforto de sua casa, com opções de atendimento à distância, facilitando o acesso aos melhores especialistas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="barra.js"></script>
+    <script src="especialistas.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="landpage.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>    
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav id="navbar">
+            <!-- LOGO -->
+            <i class="fa-solid fa-bell" id="nav_logo"> SYNC</i>
+
+            <!-- LINKS -->
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Descrição</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Funcionalidades</a>
+                </li>
+            </ul>
+            
+            <a href="login.html">  
+            <button class="btn-default">
+              Entre aqui 
+            </button>
+            </a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <!-- LINKS -->
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Descrição </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Funcionalidades/a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Conheça nosso site 
+            </button>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <main id="content">
+        <!-- HOME -->
+        <section id="home">
+            
+            <!-- CTA -->
+            <div id="cta">
+                <h1 class="title">
+                    A melhor experiência que você vai ter!
+                    <span></span>
+
+                </h1>
+
+                <p class="description">
+                    O SYNC pode te ajudar nessa jornada! 
+    
+                </p>
+
+                <div id="cta_buttons">
+                    
+                    <a  href="login.html" class="btn-default">
+                        Quero fazer parte do time!
+                    </a>
+                </div>
+
+            
+            <div id="banner">
+                <img src="land.svg" alt="">
+            </div>
+        </section>
+
+
+
+        <!-- TESTIMONIALS -->
+        <section id="testimonials">
+            <img src="descricao.svg" id="testimonial_chef" alt=""> 
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Descrição</h2>
+                <h3 class="section-subtitle">Por que procurar pelo SYNC?</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <span>
+                            <i class="fa-solid fa-check"></i>
+                        </span>
+                        <div class="feedback-content">
+                            
+                        
+                            <p>
+                                O projeto SYNC - Gerenciamento de Tarefas tem como missão facilitar a organização e o acompanhamento das atividades diárias dos usuários, ajudando-os a melhorar a produtividade pessoal e profissional
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <span>
+                            <i class="fa-solid fa-check"></i>
+                        </span>
+                        <div class="feedback-content">
+                            
+                            <p>
+                                A plataforma resolve o problema da desorganização e falta de controle sobre tarefas e hábitos, oferecendo uma solução simples e acessível para criar, monitorar e priorizar atividades.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback">
+                    <span>
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                    <div class="feedback-content">
+                        <p>
+                            O público-alvo inclui profissionais que gerenciam múltiplos projetos, estudantes que precisam organizar suas obrigações acadêmicas e indivíduos que desejam otimizar sua rotina.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                <button class="btn-default">
+                    
+                </button>
+            </div>
+        </section>
+    </main>
+
+
+    <div id="banner">
+        <img src="src/images/dish.png" alt="">
+    </div>
+</section>
+
+
+<section id="menu">
+    <h2 class="section-title"></h2>
+    <h3 class="section-subtitle">Funcionalidades para organizar e otimizar seu tempo</h3>
+
+    <div id="dishes">
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <img src="src/images/dish.png" class="dish-image" alt="">
+            <h3 class="dish-title">Primeiro passo</h3>
+            <span class="dish-description">
+               Dê o primeiro passo para uma vida mais produtiva e focada no que realmente importa!   
+        </div>
+
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <img src="src/images/dish2.png" class="dish-image" alt="">
+            <h3 class="dish-title">Lista de prioridades</h3>
+            <span class="dish-description">
+                Identifique suas tarefas mais importantes e faça-as primeiro criando uma lista de prioridades! 
+            </span>
+        </div>
+
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <img src="src/images/dish3.png" class="dish-image" alt="">
+            <h3 class="dish-title">Tenha objetivos</h3>
+            <span class="dish-description">
+                Estabeleça prazos realistas definindo metas diárias e semanais para um melhor resultado!
+            </span>
+        </div>
+
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <img src="src/images/dish4.png" class="dish-image" alt="">
+            <h3 class="dish-title">Delegue prioridades</h3>
+            <span class="dish-description">
+                Elimine e simplifique oque não e essencial e delegue tarefas!
+            </span>
+    </div>
+
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <img src="src/images/wave-divider.svg" alt="">
+
+    </footer>
+    <script src="landpage.js"></script>
+</body>
+</html>
